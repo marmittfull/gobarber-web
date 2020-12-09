@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+<div align="center">
+  <img alt="Rocket"
+    src="https://hotmart.s3.amazonaws.com/product_contents/0569fee6-8c8f-4dee-a46d-80102ced177a/Header_Product_1920x450.jpg"
+  />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+# GoBarber (web)
 
-### `yarn start`
+> Barbershop application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3 align="center">
+  <img alt="React" 
+    src="https://camo.githubusercontent.com/ef48e7b26cc8b5415d2c6093fa12b510069d1fa5/68747470733a2f2f7777772e636c6f7564636d732e636f6d2f696d616765732f717569636b7374617274732f72656163742f72656163742e64663730623030352e706e67" width="180px"/>
+</h3>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<blockquote align="center">
+  This project is part of the bootcamp:
+    <a href="https://rocketseat.com.br/gostack">
+      GoStack by RocketSeat
+    </a> 
+</blockquote>
 
-### `yarn test`
+<hr/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 About the project:
 
-### `yarn build`
+This application consists of managing a barbershop, where barbers can see their appointments, customers can schedule one and even become a professional in the barbershop.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔥 Functionalities:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Through this application we can:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Schedule an appointment at the barbershop with our favorite barber.
+- Create an account & keep logged with JWT.
+- Become a barber and manage our own clients
 
-### `yarn eject`
+## ⚙️ Techs:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ReactJS
+- TypeScript
+- React Router DOM
+- React Icons
+- UnForm 
+- Yup
+- Styled Components
+- Polished
+- Axios
+- Husky
+- Commitlint
+- Commitizen
+- Eslint
+- Prettier
+- EditorConfig
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⛏ Tools:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Insomnia](https://insomnia.rest/download/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h3 align="center">
+Author: <a alt="Tiago Marmitt" href="https://github.com/marmittfull">Tiago Marmitt</a>
+</h3>
 
-## Learn More
+<p align="center">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <a alt="Tiago Marmitt Linkedin" href="https://www.linkedin.com/in/tiago-marmitt-762bb61b0">
+    <img src="https://img.shields.io/badge/LinkedIn-Tiago%20Marmitt-blue?logo=linkedin"/>
+    </a>
+  <a alt="Tiago Marmitt GitHub" href="https://github.com/marmittfull">
+  <img src="https://img.shields.io/badge/GitHub-Tiago%20Marmitt-lightgrey?logo=github"/>
+  </a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+</p>
