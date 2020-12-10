@@ -19,7 +19,7 @@ interface AuthState {
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
-export function useAuth(): AuthContextData {
+function useAuth(): AuthContextData {
   const context = useContext(AuthContext);
 
   if (!context) throw new Error('useAuth must be used within an AuthProvider');
@@ -27,7 +27,7 @@ export function useAuth(): AuthContextData {
   return context;
 }
 
-export const AuthProvider: React.FC = ({ children }) => {
+const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<AuthState>(() => {
     const token = localStorage.getItem('@GoBarber:token');
     const user = localStorage.getItem('@GoBarber:user');
@@ -62,3 +62,5 @@ export const AuthProvider: React.FC = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
+export { AuthProvider, useAuth };
