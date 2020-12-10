@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
 import loginBackground from '../../assets/loginbackground.png';
 
@@ -7,6 +7,18 @@ export const Container = styled.div`
   height: 100vh;
   align-items: stretch;
 `;
+
+const contentTransition = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -14,6 +26,8 @@ export const Content = styled.div`
   max-width: 700px;
   align-items: center;
   justify-content: center;
+
+  animation: ${contentTransition} 1s;
 
   form {
     margin: 50px 0;

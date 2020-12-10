@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
 import signupbackground from '../../assets/signupbackground.png';
 
@@ -12,6 +12,18 @@ export const Background = styled.div`
   background: url(${signupbackground}) no-repeat center;
   background-size: cover;
 `;
+
+const contentTransition = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
+
 export const Content = styled.div`
   display: flex;
   align-items: center;
@@ -19,6 +31,8 @@ export const Content = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 700px;
+
+  animation: ${contentTransition} 1s;
 
   form {
     margin: 50px 0;
